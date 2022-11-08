@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(61, 1, 116);
+}
+
+.content {
+  width: 40%;
+  margin: 3% auto;
+  padding: 2%;
+  align-items: center;
+  align-content: center;
+  background-color: #ffffff;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+#name-input,
+#phone-input {
+  border: none;
+  border-bottom: 2px solid #dcdada;
+}
+
+#name,
+#phone {
+  border: none;
+}
+
+#name-input,
+#phone-input,
+#create-user-btn,
+#remove-all-user {
+  margin: 1% 0;
+  width: 50%;
+}
+
+#title{
+  margin: 2% 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 1% 0;
+  margin-right: 65px;
+}
+
+li:nth-child(even) {
+  background-color: #dcdada;
+}
+
+#change-user-btn {
+  margin-left: 20px;
+}
+
+input {
+  margin: 0 1%;
+}
+
+input:first-child {
+  margin-left: 0;
+}
+
+#edit-user-btn {
+  margin-right: 1%;
+}
+
+#edit-user-btn,
+#delete-user-btn {
+  padding: 0 1%;
+  border-radius: 4px;
+}
+
+#delete-user-btn {
+  background-color: red;
+  color: #ffffff;
+  border: none;
+  padding: 3px 10px;
+}
+
+#edit-user-btn {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 3px 15px;
+}
+
+#message {
+  color: red;
+  margin-top: 20px;
+  display: none;
+}

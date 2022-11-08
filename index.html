@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Css link -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Inlämningsuppgift Javascript</title>
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="input-form">
+        <input type="text" id="name-input" placeholder="Namn" />
+        <input type="text" id="phone-input" placeholder="Telefon" />
+        <button id="create-user-btn">Skapa</button>
+        <button id="remove-all-user" onclick="remove_all_contacts()">Radera Lista</button>
+
+        <h3 id="message">Får ej skapa tom kontakt</h3>
+      </div>
+
+      <div id="contact-list"
+        <h2 id="title">Kontakt Lista</h2>
+        <ul id="list-of-contacts">
+
+        </ul>
+      </div>
+    </div>
+
+    <!-- Javascript Link -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
